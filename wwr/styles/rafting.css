@@ -30,16 +30,16 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
+.hero h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
+.hero article {
+    position: absolute;
+}
+
+nav, p, section, article {
     margin: 16px;
     padding: 8px
 }
@@ -58,8 +58,7 @@ article {
     height: auto;
 }
 
-h1,
-h2 {
+h1, h2 {
     position: absolute;
     top: 20px;
     width: 100%;
