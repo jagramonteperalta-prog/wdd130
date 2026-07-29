@@ -35,11 +35,12 @@ header {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--secondary-color)
 }
 
 .hero{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .hero img {
@@ -49,9 +50,9 @@ h1, h2 {
 }
 
 .hero h1 {
+    position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
-    position: absolute;
 }
 
 .hero article {
@@ -59,6 +60,12 @@ h1, h2 {
     bottom: 20px;
     left: 20px;
     right: 20px;
+}
+
+.hero article {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.1rem;
 }
 
 .hero article img {
@@ -87,5 +94,5 @@ footer {
 .socialmedia img {
     width: 30px;
     height: 30px;
-    margin: 0 5px;
+    margin-left: 8px;
 }
