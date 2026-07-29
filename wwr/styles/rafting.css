@@ -58,7 +58,7 @@ h1, h2 {
     margin-top: 5px;
 }
 
-article {
+.hero article {
     bottom: 10px;
     left: 20px;
     right: 20px;
@@ -67,7 +67,7 @@ article {
     padding:20px;
 }
 
- article img {
+ .hero article img {
     float: right;
     width: 100px;
 }
