@@ -72,6 +72,10 @@ h1, h2 {
     width: 100px;
 }
 
+figure img {
+    width: 200px;
+}
+
 nav, p, section, article {
     margin: 16px 0;
     padding: 8px
