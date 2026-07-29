@@ -72,6 +72,11 @@ h1, h2 {
     width: 100px;
 }
 
+.gallery {
+    display: flex;
+    align-items: flex-end;
+}
+
 figure img {
     width: 150px;
 }
@@ -88,7 +93,7 @@ footer {
     align-items: center;
     padding: 15px 20px;
     background-color: white;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 footer nav {
