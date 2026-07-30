@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><Form></Form> Exercise</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 
-<header></header>
+<header>
+    <h1>WDD 130 | HTML form - User Poll</h1>
+</header>
 <body>
     <main>
     <form>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required>
-        <label for="emailaddress">Email:</label>
-        <input type="email" id="useremail" name="useremail" required>
-
-        <label for="browser">What is your favorite internet browser?</label>
-        <select id="browser" name="browser">
+        <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-item column2">
+            <label for="emailaddress">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+        </div>
+        <div class="form-item column1">
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+        </div>
              <option value="chrome">Chrome</option>
             <option value="firefox">Firefox</option>
             <option value="edge">Edge</option>
