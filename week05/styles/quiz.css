@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+
+
+    background-color: gainsboro;
+    color: #fff;
+}
+
+h1 {
+    margin: .5rem;
+    color: navy;
+}
+
+form {
+    background-color: #ddd;
+    color: #111;
+    text-align: center;
+}
+
+input, textarea, select, button {
+    padding: .75rem;
+    width: 350px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.quiz-item {
+    border: none;
+    padding: 10px;
+}

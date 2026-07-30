@@ -7,8 +7,33 @@
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
-    <main>
-
+    <main class="box">
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <form action="">
+            <div class="quiz-item">
+               <label for="q1">1. Which HTML element is used to create a hyperlink?</label> 
+               <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+               <label for="q2">2. Which CSS property is used to change the text color?</label> 
+               <input type="text" id="q2" name="q2">
+            </div>
+            <div class="quiz-item">
+               <label for="q3">3. Which HTML topics would you like to practice more?</label> 
+               <select id="q3" name="q3">
+                <option value="" selected disabled>Choose one ...</option>
+                <option value="a">Forms</option>
+                <option value="b">Tables</option>
+                <option value="c">Images</option>
+                <option value="d">Lists</option>
+               </select>
+            </div>
+            <div class="quiz-item">
+               <label for="q4">4. How many HTML elements can you name from memory?</label> 
+               <input number="integer" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
     </main>
 </body>
 
