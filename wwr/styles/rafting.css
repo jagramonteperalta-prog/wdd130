@@ -113,7 +113,7 @@ footer {
     align-items: center;
     padding: 15px 20px;
     background-color: white;
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 footer nav {
