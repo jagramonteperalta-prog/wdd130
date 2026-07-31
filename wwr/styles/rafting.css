@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #005a05;
-    --secondary-color: #f4a261;
+    --primary-color: solid gray;
+    --secondary-color: #61d2f4;
     --accent1-color: #333;
     --accent2-color: light yellow;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -30,7 +30,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     justify-content: space-between;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
 
