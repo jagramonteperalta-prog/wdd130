@@ -1,8 +1,8 @@
 :root {
-    --primary-color: solid gray;
-    --secondary-color: #61d2f4;
-    --accent1-color: #333;
-    --accent2-color: light yellow;
+    --primary-color: #1b4332;
+    --secondary-color: #2a9d8f;
+    --accent1-color: #333333;
+    --accent2-color: #F8F9FA;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #f4f4f4;
+    background-color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -30,7 +30,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     justify-content: space-between;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--accent2-color);
 }
 
@@ -93,9 +93,23 @@ nav {
     display: flex;
 }
 
+nav a {
+    color: white;
+    margin: auto;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--accent1-color);
+}
+
 form {
     border: none;
     padding: 10px;
+    background-color: white;
 }
 
 form div {
@@ -104,6 +118,11 @@ form div {
 
 button {
     margin-top: 10px;
+    background-color: var(--secondary-color);
+}
+
+button:hover {
+    background-color: var(--primary-color);
 }
 
 footer {
@@ -114,6 +133,10 @@ footer {
     padding: 15px 20px;
     background-color: white;
     color: var(--accent1-color);
+}
+
+footer a {
+    color: white;
 }
 
 footer nav {
