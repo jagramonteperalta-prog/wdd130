@@ -27,7 +27,7 @@ header, main, footer {
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
@@ -36,7 +36,7 @@ header {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    margin-top: 60px;   
+    margin-top: 60px; 
 }
 
 .hero{
@@ -60,12 +60,11 @@ h1, h2 {
 
 .hero article {
     position: absolute;
-    bottom: -305px;
+    bottom: -350px;
     left: 20px;
     right: 20px;
     background-color: rgba(255, 255, 255, 0);
     color: black;
-    padding:20px;
 }
 
  .hero article img {
