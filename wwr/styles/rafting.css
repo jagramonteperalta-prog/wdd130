@@ -1,7 +1,7 @@
 :root {
     --primary-color: #005a05;
     --secondary-color: #f4a261;
-    --accent1-color: #2645653;
+    --accent1-color: #333;
     --accent2-color: light yellow;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -25,12 +25,13 @@ header, main, footer {
 }
 
 header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
 }
 
 h1, h2 {
@@ -86,6 +87,10 @@ figure img {
 nav, p, section, article {
     margin: 16px 0;
     padding: 8px
+}
+
+nav {
+    display: flex;
 }
 
 form {
