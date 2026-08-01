@@ -106,6 +106,10 @@ p {
     color: var(--accent1-color);
 }
 
+iframe {
+    border: 0;
+}
+
 form {
     border: none;
     padding: 10px;
@@ -119,6 +123,7 @@ form div {
 button {
     margin-top: 10px;
     background-color: var(--secondary-color);
+    color: white;
 }
 
 button:hover {

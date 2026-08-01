@@ -35,7 +35,7 @@
             </section>
             <section>
                 <h2>Our Location</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.3621695237844!2d-111.57139339999999!3d40.35649319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d8dd88181d7b1%3A0xb791b1adc3ff9f6b!2sHigh%20Country%20Adventure!5e0!3m2!1sen!2sus!4v1785381497151!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.3621695237844!2d-111.57139339999999!3d40.35649319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d8dd88181d7b1%3A0xb791b1adc3ff9f6b!2sHigh%20Country%20Adventure!5e0!3m2!1sen!2sus!4v1785381497151!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
            </section>
            <section>
@@ -50,22 +50,27 @@
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div>
-                    <label for="general">General Inquiry:</label>
-                    <input type="radio" id="general" name="purpose">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
-                <label for="reservation">Reservation</label>
+                <div>
+                    <label for="reservation">Reservation</label>
                     <input type="radio" id="reservation" name="purpose">
                 </div>
-                  </div>
-                <label for="suggestions">Website Suggestions:</label>
+                <div>
+                    <label for="suggestions">Website Suggestions:</label>
                     <input type="radio" id="suggestions" name="purpose">
+                </div>
+                <div>
+                    <label for="general">General Inquiry:</label>
+                    <input type="radio" id="general" name="purpose">
                 </div>
                 <div>
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                  </div>
-                <label for="updates">Would you like to receive updates?</label>
+                <div>
+                    <label for="updates">Would you like to receive updates?</label>
                     <input type="checkbox" id="updates" name="updates">
                 </div>
                 <button type="submit">Send Contact info</button>
