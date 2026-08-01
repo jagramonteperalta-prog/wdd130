@@ -123,7 +123,7 @@ form div {
 button {
     margin-top: 10px;
     background-color: var(--secondary-color);
-    color: white;
+    color: #111;
 }
 
 button:hover {
