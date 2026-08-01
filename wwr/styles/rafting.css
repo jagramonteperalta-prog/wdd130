@@ -52,7 +52,7 @@ h1, h2 {
 
 .hero h1 {
     position: absolute;
-    width: 100%;
+    text-align: center;
     padding: 10px;
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -91,11 +91,11 @@ nav, p, section, article {
 
 nav {
     display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
-    margin: auto;
 }
 
 nav a:hover {
@@ -131,11 +131,15 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: white;
-    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 footer a {
+    color: white;
+}
+
+footer p {
     color: white;
 }
 
@@ -148,7 +152,6 @@ footer nav {
 }
 
 .socialmedia img {
-    position: relative;
     width: 30px;
     height: 30px;
     margin: auto;
