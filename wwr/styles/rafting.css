@@ -131,14 +131,15 @@ button:hover {
     background-color: var(--primary-color);
 }
 
-.team {
-     display: flex;
+.team img {
+    display: flex;
     align-items: flex-end;
     text-align: center;
     justify-content: space-between;
 }
 
 footer {
+    width: 100px;
     position: relative; 
     display: flex;
     justify-content: space-between;
