@@ -41,11 +41,11 @@ h1, h2 {
 }
 
 
-.hero{
+.hero {
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
@@ -53,18 +53,22 @@ h1, h2 {
 
 .hero h1 {
     position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
     text-align: center;
     padding: 10px;
+    margin: 0;
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    margin-top: 5px;
+    color: var(--accent2-color);
 }
 
 .hero article {
-    position: absolute;
-    bottom: -350px;
+    bottom: 20px;
     left: 20px;
     right: 20px;
+    margin: 0;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0);
     color: black;
 }
@@ -139,7 +143,6 @@ button:hover {
 }
 
 footer {
-    width: 100px;
     position: relative; 
     display: flex;
     justify-content: space-between;
@@ -169,4 +172,44 @@ footer nav {
     width: 30px;
     height: 30px;
     margin: auto;
+}
+
+.newsletter {
+    top: 20px;
+    bottom: 10px;
+    left: 20px;
+    padding: 10px;
+}
+
+.trips-details {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.trips-details img {
+    width: 50%;
+}
+
+.trips-details article {
+    width: 50%;
+    padding: 10px;
+}
+
+table {
+border-collapse: collapse;
+border: 2px solid black;
+letter-spacing: 1px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th, tfoot tr {
+   background-color: black;
+   color: white;
+   font-weight: 700;
 }
